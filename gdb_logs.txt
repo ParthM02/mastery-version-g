@@ -1,0 +1,10 @@
+(gdb) show commands
+    1  run -t testcases/short2.rep
+    2  p itr
+    3  q
+    4  run -t testcases/short2.rep
+    5  bt
+    6  p **itr
+    7  p *itr
+    8  q
+    9  show commands

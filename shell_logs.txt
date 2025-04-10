@@ -1,0 +1,22 @@
+  541  git clone git@github.com:ParthM02/mastery-version-g.git
+  542  cd mastery-version-g
+  543  make
+  544  make check
+  545  bin/a.out -t short2.rep
+  546  bin/a.out -t testcases/short2.rep
+  547  make clean
+  548  make debug
+  549  gdb bin/a.out
+  550  make clean
+  551  make check
+  552  make clean
+  553  make debug
+  554  gdb bin/a.out
+  555  clean
+  556  make check
+  557  make check
+  558  make comp
+  559  make check
+  560  touch shell_logs.txt
+  561  echo history > shell_logs.txt
+  562  history
